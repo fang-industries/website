@@ -20,7 +20,7 @@
         />
         <EmployeeCard
           :img="Albert"
-          quote="i don't know what the fuck i'm doing here"
+          quote="L"
           name="Angry Birt"
           :timestamp="1664344117"
         />
