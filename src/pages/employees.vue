@@ -2,7 +2,13 @@
   <main class="space-y-16 py-8">
     <Navbar />
     <section id="heading">
-      <div class="w-[48rem] px-8 text-4xl md:px-0">Employees</div>
+      <div class="flex w-[48rem] flex-col gap-y-4 px-8 md:px-0">
+        <h1 class="text-4xl font-semibold">Employees</h1>
+        <p class="text-neutral-500 dark:text-neutral-400">
+          Our valuable, professionally-trained employees of Fang Industries,
+          inc.
+        </p>
+      </div>
     </section>
     <section id="members">
       <div class="flex w-[48rem] flex-col gap-y-6 px-8 md:px-0">
