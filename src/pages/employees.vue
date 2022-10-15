@@ -68,11 +68,13 @@
         />
       </div>
     </section>
+    <Footer />
   </main>
 </template>
 
 <script setup lang="ts">
 import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 import EmployeeCard from "@/components/EmployeeCard.vue";
 
 import Evan from "@/assets/media/evan.png";
