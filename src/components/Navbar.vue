@@ -1,7 +1,7 @@
 <template>
   <div class="flex w-full justify-center">
     <div class="w-[48rem]">
-      <div class="flex w-full justify-between">
+      <div class="flex w-full justify-between px-8 md:px-0">
         <router-link
           to="/"
           :class="

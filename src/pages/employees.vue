@@ -2,10 +2,10 @@
   <main class="space-y-16 py-8">
     <Navbar />
     <section id="heading">
-      <div class="w-[48rem] text-4xl">Employees</div>
+      <div class="w-[48rem] px-8 text-4xl md:px-0">Employees</div>
     </section>
     <section id="members">
-      <div class="flex w-[48rem] flex-col gap-y-6">
+      <div class="flex w-[48rem] flex-col gap-y-6 px-8 md:px-0">
         <EmployeeCard
           :img="Nadine"
           quote="I’m sorry, I’m uncomfortable with emotions."
