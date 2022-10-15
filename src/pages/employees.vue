@@ -32,7 +32,7 @@
         />
         <EmployeeCard
           :img="Tristan"
-          quote="i don't know what the fuck i'm doing here"
+          quote="the best way to cook egg is for it to explode like my nuts"
           name="Tristano Litano Milano The Minato Karim Gupta"
           :timestamp="1660783111"
         />
