@@ -9,7 +9,7 @@
         <EmployeeCard
           :img="Nadine"
           quote="I’m sorry, I’m uncomfortable with emotions."
-          name="Nadine Stefania Susanto"
+          name="Nichodine Staphylococcus Sus"
           :timestamp="1665384948"
         />
         <EmployeeCard
