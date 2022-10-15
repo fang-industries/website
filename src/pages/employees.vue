@@ -1,0 +1,88 @@
+<template>
+  <main class="space-y-16 py-8">
+    <Navbar />
+    <section id="heading">
+      <div class="w-[48rem] text-4xl">Employees</div>
+    </section>
+    <section id="members">
+      <div class="flex w-[48rem] flex-col gap-y-6">
+        <EmployeeCard
+          :img="Nadine"
+          quote="I’m sorry, I’m uncomfortable with emotions."
+          name="Nadine Stefania Susanto"
+          :timestamp="1665384948"
+        />
+        <EmployeeCard
+          :img="Albert"
+          quote="i don't know what the fuck i'm doing here"
+          name="Angry Birt"
+          :timestamp="1664344117"
+        />
+        <EmployeeCard
+          :img="Brigitta"
+          quote="mental = gone 👍"
+          name="Brigitata Ingitta Laur Widjstrich"
+          :timestamp="1664009853"
+        />
+        <EmployeeCard
+          :img="Tristan"
+          quote="i don't know what the fuck i'm doing here"
+          name="Tristano Litano Milano The Minato Karim Gupta"
+          :timestamp="1660783111"
+        />
+        <EmployeeCard
+          :img="Jovan"
+          quote="sometimes i just wanna bomb the school because i keep on seeing ms ririn's face"
+          name="Jopapapanes Banananes Aditya"
+          :timestamp="1657468496"
+        />
+        <EmployeeCard
+          :img="Antonio"
+          quote="i don't know what the fuck i'm doing here"
+          name="Antonius Kausarius III, Jr."
+          :timestamp="1650507835"
+        />
+        <EmployeeCard
+          :img="Nicholas"
+          quote="i love clicking on lolies"
+          name="Nikky Nikky Daninisawawaera Susprapto"
+          :timestamp="1649574237"
+        />
+        <EmployeeCard
+          :img="Tim"
+          quote="love them SIGs bro"
+          name="Timtohy Minony Sophie"
+          :timestamp="1644972908"
+        />
+        <EmployeeCard
+          :img="Jason"
+          quote="im disappointed by the fact that i made this"
+          name="Jason Fang"
+          :timestamp="1644972908"
+        />
+        <EmployeeCard
+          :img="Evan"
+          quote="i love loling"
+          name=" Evannes Bohannes Gohannes Cornary Monarchy Karawachi Wangsa Bangsa"
+          :timestamp="1644972908"
+        />
+      </div>
+    </section>
+  </main>
+</template>
+
+<script setup lang="ts">
+import Navbar from "@/components/Navbar.vue";
+import EmployeeCard from "@/components/EmployeeCard.vue";
+
+import Evan from "@/assets/media/evan.png";
+import Jason from "@/assets/media/jason.png";
+import Tim from "@/assets/media/tim.webp";
+import Nicholas from "@/assets/media/nicholas.png";
+import Antonio from "@/assets/media/anto.png";
+import Jovan from "@/assets/media/jovan.jpg";
+import Tristan from "@/assets/media/tristan.png";
+import Brigitta from "@/assets/media/bri.png";
+import Albert from "@/assets/media/albert.png";
+import Nadine from "@/assets/media/nadine.png";
+</script>
