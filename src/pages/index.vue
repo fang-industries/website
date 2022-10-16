@@ -1,6 +1,12 @@
 <template>
-  <main class="py-8">
+  <main class="flex min-h-screen flex-col justify-between py-8">
     <Navbar />
+    <div class="min-w-screen flex justify-center">
+      <div class="flex flex-col gap-y-8 text-center">
+        <img src="@/assets/fard.svg" class="h-24" />
+        <blockquote class="text-xl">We do shit.</blockquote>
+      </div>
+    </div>
     <Footer />
   </main>
 </template>
