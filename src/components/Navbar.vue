@@ -22,6 +22,11 @@
             "
             >Employees</router-link
           >
+          <a
+            href="https://stories.fangdustry.me"
+            class="underline transition hover:text-lime-700 dark:hover:text-lime-200"
+            >Employees</a
+          >
           <router-link
             to="/branding"
             :class="
