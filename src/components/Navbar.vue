@@ -12,7 +12,7 @@
           >Home</router-link
         >
 
-        <div class="flex">
+        <div class="flex gap-x-8">
           <router-link
             to="/employees"
             :class="
@@ -21,6 +21,15 @@
                 : `underline transition hover:text-lime-700 dark:hover:text-lime-200`
             "
             >Employees</router-link
+          >
+          <router-link
+            to="/branding"
+            :class="
+              $route.path === '/branding'
+                ? `cursor-default font-semibold text-lime-600 dark:text-lime-400`
+                : `underline transition hover:text-lime-700 dark:hover:text-lime-200`
+            "
+            >Branding</router-link
           >
         </div>
       </div>
