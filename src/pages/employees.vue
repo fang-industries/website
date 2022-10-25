@@ -39,7 +39,7 @@
         <EmployeeCard
           :img="Jovan"
           quote="sometimes i just wanna bomb the school because i keep on seeing ms ririn's face"
-          name="Jopapapanes Banananes Aditya"
+          name="Muhammad Jovannes Aditya Gunawan Surya Jonathan William Ahmad Agung Budi Gunadi Hartono Setiawan Putra Immanuel Wijaya"
           :timestamp="1657468496"
         />
         <EmployeeCard
