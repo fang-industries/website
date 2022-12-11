@@ -55,12 +55,6 @@
           :timestamp="1649574237"
         />
         <EmployeeCard
-          :img="Tim"
-          quote="love them SIGs bro"
-          name="Timtohy Minony Sophie"
-          :timestamp="1644972908"
-        />
-        <EmployeeCard
           :img="Jason"
           quote="im disappointed by the fact that i made this"
           name="Jason Fang"
