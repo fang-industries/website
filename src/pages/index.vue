@@ -1,12 +1,7 @@
 <template>
   <main class="flex min-h-screen flex-col justify-between py-8">
     <Navbar />
-    <div class="min-w-screen flex justify-center px-8 md:px-0">
-      <div class="flex flex-col gap-y-8 text-center">
-        <img src="@/assets/branding/fard.svg" class="h-24" />
-        <blockquote class="text-xl">We do shit.</blockquote>
-      </div>
-    </div>
+    <div class="min-w-screen flex justify-center px-8 md:px-0"></div>
     <Footer />
   </main>
 </template>
