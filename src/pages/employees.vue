@@ -13,6 +13,12 @@
     <section id="members">
       <div class="flex w-[48rem] flex-col gap-y-6 px-8 md:px-0">
         <EmployeeCard
+          :img="Jayden"
+          quote="It's sad when someone you know becomes someone you knew"
+          name="Nichodine Staphylococcus Sus"
+          :timestamp="1671559320"
+        />
+        <EmployeeCard
           :img="Nadine"
           quote="I’m sorry, I’m uncomfortable with emotions."
           name="Nichodine Staphylococcus Sus"
@@ -57,13 +63,13 @@
         <EmployeeCard
           :img="Jason"
           quote="im disappointed by the fact that i made this"
-          name="Jason Fang"
+          name="Jaosn Fanansg"
           :timestamp="1644972908"
         />
         <EmployeeCard
           :img="Evan"
           quote="i love loling"
-          name=" Evannes Bohannes Gohannes Cornary Monarchy Karawachi Wangsa Bangsa"
+          name="Evannes Bohannes Gohannes Cornary Monarchy Karawachi Wangsa Bangsa"
           :timestamp="1644972908"
         />
       </div>
@@ -79,7 +85,6 @@ import EmployeeCard from "@/components/EmployeeCard.vue";
 
 import Evan from "@/assets/media/evan.png";
 import Jason from "@/assets/media/jason.png";
-import Tim from "@/assets/media/tim.webp";
 import Nicholas from "@/assets/media/nicholas.png";
 import Antonio from "@/assets/media/anto.png";
 import Jovan from "@/assets/media/jovan.jpg";
@@ -87,4 +92,5 @@ import Tristan from "@/assets/media/tristan.png";
 import Brigitta from "@/assets/media/bri.png";
 import Albert from "@/assets/media/albert.png";
 import Nadine from "@/assets/media/nadine.png";
+import Jayden from "@/assets/media/jayden.png";
 </script>
