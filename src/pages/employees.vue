@@ -15,7 +15,7 @@
         <EmployeeCard
           :img="Jayden"
           quote="It's sad when someone you know becomes someone you knew"
-          name="Nichodine Staphylococcus Sus"
+          name="Joydon Rich Loui III"
           :timestamp="1671559320"
         />
         <EmployeeCard
